@@ -1,0 +1,17 @@
+﻿<Window x:Class="LuckyDip.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LuckyDip"
+      
+        mc:Ignorable="d"
+        Title="MainWindow" Height="605" Width="422" Background="White" Foreground="Black">
+    <Grid>
+        <TextBlock x:Name="TextBlockTickets" HorizontalAlignment="Left" Margin="25,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="504" Width="365" FontWeight="Bold" FontSize="16" Foreground="{x:Null}" Background="#FF766000" Opacity="0.5"/>
+        <Button x:Name="ButtonSelect" Content="Press for Ticket" HorizontalAlignment="Left" Margin="285,529,0,0" VerticalAlignment="Top" Width="101" Height="25" Click="ButtonSelect_Click"/>
+        <TextBox x:Name="TextBoxTickets" HorizontalAlignment="Left" Height="25" Margin="226,529,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+        <TextBlock HorizontalAlignment="Left" Height="25" Margin="25,529,0,0" TextWrapping="Wrap" Text="Enter the number of rows (1 to 20)" VerticalAlignment="Top" Width="185"/>
+
+    </Grid>
+</Window>
